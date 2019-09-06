@@ -42,7 +42,7 @@ body {
   }
 
   .nav { 
-    background: #000;
+    background:#7413dc;
     height: 80px; 
     width: 100%;
   }
@@ -261,3 +261,6 @@ form {
   .checkbox-text{
       color: black;
   }
+  .navbar-item{
+    text-decoration: none;
+  }    
