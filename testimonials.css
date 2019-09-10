@@ -25,19 +25,18 @@ body {
 
   }
   
-  
-h2 {
-  border-bottom: 1px solid white;
-  color: black;
-  font-weight: 100;
-  font-size: 25px;
-  line-height: 24px;
-  padding-bottom: 30px;
-  text-align: center;
-  width: 100%;
-  font-family:Georgia;
-  text-decoration: underline;
-}
+  h2 {
+    border-bottom: 1px solid white;
+    color: black;
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    font-family:Georgia;
+    text-decoration: underline;
+  }
 
   .nav { 
     background:#7413dc;
@@ -69,7 +68,6 @@ h2 {
 
     * {box-sizing:border-box}
 
- 
 
   p {
     color: black;
@@ -80,7 +78,6 @@ h2 {
     font-size: 18px;
     font-weight:normal;
   }
-  
   
   .caption {
     display: block;
@@ -97,17 +94,12 @@ h2 {
     color:black;
     opacity:0.75;
   }
-  
-  /* .content {
-    padding: 40px; */
-  /* } */
 
   .intro {
       padding: 40px;
   }
   
   .image {
-    background-image: url("http://www.scienceclarified.com/photos/computer-software-3060.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -123,14 +115,6 @@ h2 {
   .navbar-item{
     text-decoration: none;
   }    
-
-
-
-
-
-
-
-
 
   /* Style the container with a rounded border, grey background and some padding and margin */
 .container {
@@ -194,3 +178,6 @@ div {
 div {
   animation: bounceIn 2s;
 }
+
+.submit-contact{
+  font-size: 150%;}
