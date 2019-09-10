@@ -12,8 +12,16 @@ body {
     padding: 0;
     height: 800px;
     text-align: center; 
+    font-size: 22px;
+    width:99%
   }
   
+.img{
+    text-align: centre;
+}
+
+
+
   h1 {
     color: black;
     font-size: 3em;
@@ -32,11 +40,26 @@ body {
     font-size: 22px;
     line-height: 24px;
     padding-bottom: 30px;
-    text-align: left;
-    width: 70%;
+    text-align: center;
+    width: 99%;
     font-family:Georgia;
     text-decoration: underline;
   }
+
+  h3 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: black;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 99%;
+    font-family:Georgia;
+    text-decoration: underline;
+  }
+
+
 
   .nav { 
     background:#7413dc;
@@ -60,6 +83,7 @@ body {
     list-style: none;
     padding: 0 10px;
     width: 19.5%;
+    text-align: center
   }
   
   .btn:hover, .nav ul li:hover {
@@ -105,8 +129,13 @@ body {
     font-family:Helvetica;
     font-size: 18px;
     font-weight:normal;
+    
+    
   }
-  
+  ul{text-align: left;
+    color:black; 
+    font-size: 18px;
+}
   
   .caption {
     display: block;
@@ -132,8 +161,6 @@ body {
       padding: 40px;
   }
 
-  
-  
   .writer-img {
     -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
     -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
@@ -167,3 +194,56 @@ body {
   div {
     animation: bounceIn 2s;
   }
+
+
+
+   /* Style the container with a rounded border, grey background and some padding and margin */
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  /* Clear floats after containers */
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Increase the font-size of a span element */
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  /* Add media queries for responsiveness. This will center both the text and the image inside the container */
+  @media (max-width: 500px) {
+    .container {
+      text-align: center;
+    }
+  
+    .container img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  }
+  
+  .intro{padding: 0%}
+
+  div.container{padding:30px}
+
+  
+ .a{ align-items:center;
+justify-content:center;
+ }

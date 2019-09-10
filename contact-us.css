@@ -7,10 +7,6 @@ font-size: 150%
 
 }
 
-
-
-
-
 body {
     /* Old browsers */
     background: white;
@@ -185,7 +181,6 @@ body {
     font-weight:bold;
   }
   
-  
   .caption {
     display: block;
     font-family: 'Playfair Display', serif;
@@ -224,9 +219,6 @@ body {
     float: left;
     width: 50px;
   }
-  
-
-
 
   * {
     box-sizing: border-box;
@@ -284,9 +276,6 @@ body {
     }
   }
 
-
-
-
   /* Style the form element with a border around it */
 form {
     border: 4px solid #f1f1f1;
@@ -327,15 +316,6 @@ form {
   .navbar-item{
     text-decoration: none;
   }    
-
-
-
-
-
-
-
-
-
 
   @keyframes bounceIn {
     0% {
