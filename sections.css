@@ -256,3 +256,8 @@ body {
   div {
     animation: bounceIn 2s;
   }
+  .submit-contact{
+    font-size: 150%;
+    width: 60%;
+    color:red;
+}
