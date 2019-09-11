@@ -12,16 +12,9 @@ body {
     padding: 0;
     height: 800px;
     text-align: center; 
-    font-size: 22px;
-    width:99%
+    font-size: 40px
   }
   
-.img{
-    text-align: centre;
-}
-
-
-
   h1 {
     color: black;
     font-size: 3em;
@@ -45,21 +38,6 @@ body {
     font-family:Georgia;
     text-decoration: underline;
   }
-
-  h3 {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    color: black;
-    font-weight: 100;
-    font-size: 22px;
-    line-height: 24px;
-    padding-bottom: 30px;
-    text-align: center;
-    width: 99%;
-    font-family:Georgia;
-    text-decoration: underline;
-  }
-
-
 
   .nav { 
     background:#7413dc;
@@ -236,43 +214,9 @@ body {
       margin: auto;
       float: none;
       display: block;
-     
     }
   }
   
   .intro{padding: 0%}
 
   div.container{padding:30px}
-
-  
-  input[type=text], input[type=submit] {
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-  }
-  
-  /* Add margins to the checkbox */
-  input[type=checkbox] {
-    margin-top: 16px;
-  }
-  
-  /* Style the submit button */
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    width:40%;
-  }
-  
-  input[type=submit]:hover {
-    opacity: 0.8;
-  }
-
-  .submit-news{
-      font-size: 150%;
-      width: 60%;
-      color:red;
-}

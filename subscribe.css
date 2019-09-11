@@ -286,3 +286,8 @@ form {
   div {
     animation: bounceIn 2s;
   }
+  .submit-button{
+    font-size: 150%;
+    width: 60%;
+    color:red;
+}

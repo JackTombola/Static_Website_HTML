@@ -181,3 +181,10 @@ div {
 
 .submit-contact{
   font-size: 150%;}
+
+
+  .submit-contact{
+    font-size: 150%;
+    width: 60%;
+    color:red;
+}
