@@ -3,74 +3,59 @@
 
 <head>
     <title>Home Page</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="index.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
 
     <a href="index.html">
-        <img alt="Home Page" src="images/scouts-uk-logo.png" width="15%"
-      
-            height=11%>
+
+         
+        <img alt="Home Page" src="images/scouts-uk-logo.png" width="auto"
+            height="8%">
 
     </a>
-    <div class="content">
+      <!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+          <a href="index.html"active">Scouts Home Page</a>
+          <div id="myLinks">
+            <a href="about-us.html">About Us</a>
+            <a href="sections.html">Sections</a>
+            <a href="news.html">News/Camps</a>
+            <a href="FAQ.html">FAQ</a>
+            <a href="subscribe.html">Subscribe</a>
+            <a href="sign-up.html">Sign Up</a>
+            <a href="adult-leader.html">Adult Leader Section</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="contact-us.html">Contact Us</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        
+        <div style="padding-left:16px">
 
-        <div class="nav">
-            <ul>
-                <a class="navbar-item" href="index.html">
-                    <li>Home Page</li>
-                </a>
-
-                <a class="navbar-item" href="about-us.html">
-                    <li>About Us</li>
-                </a>
-
-                <a class="navbar-item" href="subscribe.html">
-                    <li>Subscribe</li>
-                </a>
-
-                <a class="navbar-item" href="FAQ.html">
-                    <li>FAQ</li>
-                </a>
-
-
-                <a class="navbar-item" href="contact-us.html">
-                    <li>Contact Us</li>
-                </a>
-            </ul>
         </div>
 
-
-        <div class="content">
-
-
-            <div class="nav">
-                <ul>
-                    <a class="navbar-item" href="Sections.html">
-                        <li>Sections</li>
-                    </a>
-
-                    <a class="navbar-item" href="sign-up.html">
-                        <li>Sign Up</li>
-                    </a>
-
-                    <a class="navbar-item" href="news.html">
-                        <li>News/Camps</li>
-                    </a>
-
-                    <a class="navbar-item" href="testimonials.html">
-                        <li>Testimonials</li>
-                    </a>
-
-
-                    <a class="navbar-item" href="adult-leader.html">
-                        <li>Adult Leader</li>
-                    </a>
-                </ul>
-            </div>
+  <!-- End smartphone / tablet look -->
+</div>
+        
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 
 
             <img src="images/sections.png" style="width:100%">
@@ -85,19 +70,19 @@
 
                 <div class="mySlides fade">
                     <div class="numbertext">2 / 5</div>
-                    <img class="slide-img" src="images/Cubs-Logo.png" style="width:55%">
+                    <img class="slide-img" src="images/Cubs-Logo.png" style="width:60%">
                     <div class="text">Cubs</div>
                 </div>
 
                 <div class="mySlides fade">
                     <div class="numbertext">3 / 5</div>
-                    <img class="slide-img" src="images/Scouts-Logo.png" style="width:75%">
+                    <img class="slide-img" src="images/Scouts-Logo.png" style="width:80%">
                     <div class="text">Scouts</div>
                 </div>
 
                 <div class="mySlides fade">
                     <div class="numbertext">4 / 5</div>
-                    <img class="slide-img" src="images/Explorers-Logo.png" style="width:100%">
+                    <img class="slide-img" src="images/Explorers-Logo.png" style="width:90%">
                     <div class="text">Explorers</div>
                 </div>
 
@@ -143,7 +128,7 @@
             but you soon will! Scouting helps you learn lots of new and amazing skills – and you get to earn badges and
             rewards along the way.
         </p>
-        <iframe width="1000" height="500" src="https://www.youtube.com/embed/u93WJoCMJ00" frameborder="0"
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/u93WJoCMJ00" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 

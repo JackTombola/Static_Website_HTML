@@ -177,6 +177,7 @@ body {
     font-family:Helvetica;
     font-size: 18px;
     font-weight:bold;
+    font-size: 140px;
   }
   
   
@@ -201,7 +202,10 @@ body {
   /* } */
 
   .intro {
-      padding: 40px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
   }
   
   .image {
@@ -234,17 +238,18 @@ form {
   
   input[type=text], input[type=submit] {
     width: 100%;
-    padding: 12px;
+    padding: 5%;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    font-size: 100%;
   }
   
 
   input[type=checkbox] {
-    margin-top: 16px;
-    color:black
+    color:black;
+  
   }
   
 
@@ -256,10 +261,12 @@ form {
   
   input[type=submit]:hover {
     opacity: 0.8;
+   
   }
 
   .checkbox-text{
       color: black;
+    
   }
   .navbar-item{
     text-decoration: none;
@@ -288,6 +295,54 @@ form {
   }
   .submit-button{
     font-size: 150%;
-    width: 60%;
+    width: 100%;
     color:red;
 }
+
+
+  /* Style the navigation menu */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    background-color: #7413dc;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background-color: black;
+    display: block;
+    position: absolute;
+    left: 0%;
+    top: 0;
+    width:15%;
+    height:100%;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #7413dc;
+    color: white;
+  }
+
+
