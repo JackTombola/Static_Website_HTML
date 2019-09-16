@@ -5,56 +5,59 @@
     <title>Contact Us</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="contact-us.css" type="text/css" rel="stylesheet">
+    <link href="mobile.css" type="text/css" rel="stylesheet">
+    <link href="tablet.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
     <a href="index.html">
-        <img alt="Home Page" src="images/scouts-uk-logo.png" width="auto"
-            height="8%">
+        <img alt="Home Page" src="images/scouts-uk-logo.png" width="auto" height="8%">
 
     </a>
 
-       <!-- Simulate a smartphone / tablet -->
-<div class="mobile-container">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- Top Navigation Menu -->
         <div class="topnav">
-                <a href="index.html"active">Scouts Home Page</a>
-                <div id="myLinks">
-                  <a href="about-us.html">About Us</a>
-                  <a href="sections.html">Sections</a>
-                  <a href="news.html">News/Camps</a>
-                  <a href="FAQ.html">FAQ</a>
-                  <a href="subscribe.html">Subscribe</a>
-                  <a href="sign-up.html">Sign Up</a>
-                  <a href="adult-leader.html">Adult Leader Section</a>
-                  <a href="testimonials.html">Testimonials</a>
-                  <a href="contact-us.html">Contact Us</a>
+            <a href="index.html" active>Scouts Home Page</a>
+            <div id="myLinks">
+                <a href="about-us.html">About Us</a>
+                <a href="sections.html">Sections</a>
+                <a href="news.html">News/Camps</a>
+                <a href="FAQ.html">FAQ</a>
+                <a href="subscribe.html">Subscribe</a>
+                <a href="sign-up.html">Sign Up</a>
+                <a href="adult-leader.html">Adult Leader Section</a>
+                <a href="testimonials.html">Testimonials</a>
+                <a href="contact-us.html">Contact Us</a>
 
-          </div>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
-        
+
         <div style="padding-left:16px">
 
         </div>
 
-  <!-- End smartphone / tablet look -->
-</div>
-        
-<script>
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
+        <!-- End smartphone / tablet look -->
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
     <body>
 
         <div class="container">
@@ -95,20 +98,34 @@ function myFunction() {
                             <option value="Query">Query</option>
                             <option value="Testimonial">Testimonial</option>
                             <option value="Other">Other...</option>
-                        <label for="subject">Subject</label>
-                        <textarea id="subject" name="subject" placeholder="Your Question..."
-                            style="height:170px"></textarea>
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Your Question..."
+                                style="height:170px"></textarea>
+
+                            <link rel="stylesheet"
+                            class="fa fa-refresh fa-spin"><i>Loading</i>
+                        
                             <button id="submit-button" class="submit-button" type="button">Click to Submit</button>
 
+                            
+                            
                     </form>
                 </div>
             </div>
         </div>
-        
+
     </body>
 
 </html>
 <script src="contact-us.js"></script>
+
+
+
+
+
+
+
+
 <img src="images/footer.png" style="width:100%">
 
 </body>

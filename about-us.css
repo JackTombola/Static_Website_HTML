@@ -46,6 +46,7 @@ body {
     font-family:Georgia;
     text-decoration: underline;
   }
+  /* navigation menu */
   .nav { 
     background:#7413dc;
     height: 80px; 
@@ -200,10 +201,6 @@ body {
     color:black;
     opacity:0.75;
   }
-  
-  /* .content {
-    padding: 40px; */
-  /* } */
 
   .intro {
     padding-top: 0px;
@@ -213,7 +210,6 @@ body {
   }
 
   .image {
-    background-image: url("http://www.scienceclarified.com/photos/computer-software-3060.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -232,7 +228,7 @@ body {
 text-decoration: none;
 
 }
-
+/* Animation Effect */
 @keyframes bounceIn {
   0% {
     transform: scale(0.1);
@@ -262,7 +258,7 @@ div {
     position: relative;
   }
   
-  /* Hide the links inside the navigation menu (except for logo/home) */
+  /* Hide the links inside the navigation menu (except for scout home page) */
   .topnav #myLinks {
     display: none;
   }
@@ -301,3 +297,4 @@ div {
   }
 
 
+  

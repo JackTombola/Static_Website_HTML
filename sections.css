@@ -237,6 +237,8 @@ body {
     text-decoration: none;
   }    
 
+  ol{padding: 0%;}
+
   @keyframes bounceIn {
     0% {
       transform: scale(0.1);
@@ -307,5 +309,3 @@ body {
     background-color: #7413dc;
     color: white;
   }
-
-

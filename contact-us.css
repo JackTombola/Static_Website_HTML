@@ -19,7 +19,7 @@ body {
     height: 800px;
     text-align: center; 
   }
-  
+
   h1 {
     color: black;
     color: red;
@@ -265,7 +265,6 @@ body {
     float: left;
     width: 50%;
     margin-top: 6px;
-    padding: 20px;
   }
   
   /* Clear floats after the columns */
@@ -275,13 +274,7 @@ body {
     clear: both;
   }
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 1025px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
+  
 
   /* Style the form element with a border around it */
 form {
@@ -290,7 +283,6 @@ form {
   
   /* Add some padding and a grey background color to containers */
   .container {
-    padding: 20px;
     background-color: #f1f1f1;
   }
   
