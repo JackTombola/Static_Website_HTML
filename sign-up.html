@@ -5,6 +5,8 @@
     <title>Sign Up</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="sign-up.css" type="text/css" rel="stylesheet">
+    <link href="mobile.css" type="text/css" rel="stylesheet">
+    <link href="tablet.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -20,7 +22,7 @@
 
         <!-- Top Navigation Menu -->
         <div class="topnav">
-                <a href="index.html"active">Scouts Home Page</a>
+                <a href="index.html"active>Scouts Home Page</a>
                 <div id="myLinks">
                   <a href="about-us.html">About Us</a>
                   <a href="sections.html">Sections</a>
@@ -77,7 +79,7 @@ function myFunction() {
 
 
                         <label for="Pname"><i class="fa fa-user"></i> Child Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                        <input type="text" id="fname" name="firstname" placeholder="Robert B. Doe">
 
                         <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
                         <input type="text" id="adr" name="address" placeholder="15 West Street">
@@ -118,7 +120,7 @@ function myFunction() {
                         <label for="DOB">DOB of Child</label>
                         <input type="text" id="DOB" name="DOB" placeholder="11 May 2005">
                         <label for="DOB">DOB of Parent</label>
-                        <input type="text" id="DOB" name="DOB" placeholder="11 May 2005">
+                        <input type="text" id="DOB" name="DOB" placeholder="11 May 1975">
 
                         <div class="row">
                                 <div class="col-12">
@@ -142,16 +144,18 @@ function myFunction() {
                 <input id="checkbox" type="checkbox" checked="checked" name="sameadr"> I
                 confirm sharing my Data with a 3rd Party
                 Admin Service
-
+                <link rel="stylesheet"
+                class="fa fa-refresh fa-spin"><i>Loading</i>
         </p>
         <p>
+                
         <button id="submit-button" class="submit-button" type="button">Click to Submit
                 Application Form </button></p>
         <p>Make sure you submit an application for a person between 6-25. If older please vist the <a
                 href="adult-leader.html">Adult Leader</a> section on the website.</p>
         <p>If the application doesnt involve a child please leave the textbox blank.</p>
 
-        
+     
     
 </div>
 </div>

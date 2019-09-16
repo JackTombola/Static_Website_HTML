@@ -4,165 +4,174 @@
 <head>
     <title>Adult Leader</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Links the HTML file to the CSS files-->
     <link href="adult-leader.css" type="text/css" rel="stylesheet">
+    <link href="mobile.css" type="text/css" rel="stylesheet">
+    <link href="tablet.css" type="text/css" rel="stylesheet">
+
 </head>
 
 <body>
-
-        <a href="index.html">
-                <img alt="Home Page" src="images/scouts-uk-logo.png" width="auto"
-              
-                    height="8%">
+    <!--Scout logo takes you to the home page of the website-->
+    <a href="index.html">
+        <img alt="Home Page" src="images/scouts-uk-logo.png" width="auto" height="8%">
     </a>
-        <!-- Simulate a smartphone / tablet -->
-<div class="mobile-container">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- Top Navigation Menu -->
         <div class="topnav">
-                <a href="index.html"active">Scouts Home Page</a>
-                <div id="myLinks">
-                  <a href="about-us.html">About Us</a>
-                  <a href="sections.html">Sections</a>
-                  <a href="news.html">News/Camps</a>
-                  <a href="FAQ.html">FAQ</a>
-                  <a href="subscribe.html">Subscribe</a>
-                  <a href="sign-up.html">Sign Up</a>
-                  <a href="adult-leader.html">Adult Leader Section</a>
-                  <a href="testimonials.html">Testimonials</a>
-                  <a href="contact-us.html">Contact Us</a>
+            <a href="index.html" active>Scouts Home Page</a>
+            <div id="myLinks">
+                <a href="about-us.html">About Us</a>
+                <a href="sections.html">Sections</a>
+                <a href="news.html">News/Camps</a>
+                <a href="FAQ.html">FAQ</a>
+                <a href="subscribe.html">Subscribe</a>
+                <a href="sign-up.html">Sign Up</a>
+                <a href="adult-leader.html">Adult Leader Section</a>
+                <a href="testimonials.html">Testimonials</a>
+                <a href="contact-us.html">Contact Us</a>
 
-          </div>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
-        
+
         <div style="padding-left:16px">
 
         </div>
 
-  <!-- End smartphone / tablet look -->
-</div>
-        
-<script>
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
+        <!-- End smartphone / tablet look -->
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 
 
-            <img src="images/sections.png" style="width:100%">
+    <img src="images/sections.png" style="width:100%">
 
 
 
-            <h2>Adult Leader and Volunteering Sign Up </h2>
-            <div class="container">
-                <div class="row">
-                        <form action="/action_page.php">
-                            <div class="container" style="width:100%">
-    <div class="row">
-                            <div class="col-12">
+    <h2>Adult Leader and Volunteering Sign Up </h2>
+    <div class="container">
+        <div class="row">
+            <form action="/action_page.php">
+                <div class="container" style="width:100%">
+                    <div class="row">
+                        <div class="col-12">
 
-                                <label for="fname"><i class="fa fa-user"></i>Name of the Applicant</label>
-                                <input type="text" id="name" name="firstname" placeholder="John M. Doe">
+                            <label for="fname"><i class="fa fa-user"></i>Name of the Applicant</label>
+                            <input type="text" id="name" name="firstname" placeholder="John M. Doe">
 
 
-                                <label for="Pname"><i class="fa fa-user"></i> Young Leader under 18 or Leader over
-                                    18</label>
-                                <input type="text" id="group" name="firstname" placeholder="Young Leader/Leader">
+                            <label for="Pname"><i class="fa fa-user"></i> Young Leader under 18 or Leader over
+                                18</label>
+                            <input type="text" id="group" name="firstname" placeholder="Young Leader/Leader">
 
-                                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                                <input type="text" id="adr" name="address" placeholder="15 West Street">
+                            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                            <input type="text" id="adr" name="address" placeholder="15 West Street">
 
-                                <label for="Town"><i class="fa fa-institution"></i> Town</label>
-                                <input type="text" id="Town" name="Town" placeholder="Washington">
+                            <label for="Town"><i class="fa fa-institution"></i> Town</label>
+                            <input type="text" id="Town" name="Town" placeholder="Washington">
 
-                                <label for="City"><i class="fa fa-institution"></i> City</label>
-                                <input type="text" id="city" name="city" placeholder="Sunderland">
+                            <label for="City"><i class="fa fa-institution"></i> City</label>
+                            <input type="text" id="city" name="city" placeholder="Sunderland">
 
-                                <div class="row">
-                                    <div class="col-12">
-                                        <label for="Phone Number">Phone Number</label>
-                                        <input type="text" id="Phone Number" name="Phone Number"
-                                            placeholder="01915343759">
-                                    </div>
-                                    <div class="col-12">
-                                        <label for="postcode">Postcode</label>
-                                        <input type="text" id="Postcode" name="Postcode" placeholder="SR1 1RG">
-                                    </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="Phone Number">Phone Number</label>
+                                    <input type="text" id="Phone Number" name="Phone Number" placeholder="01915343759">
                                 </div>
-                            </div>
-
-                            <div class="col-12">
-
-                                <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                                <input type="text" id="email" name="email" placeholder="john@example.com">
-
-                                <label for="ccnum">Please Type in the Scout Section you want to
-                                    Volunteer/Leader</label>
-                                <input type="text" id="ccnum" name="What Section"
-                                    placeholder="Beavers/Cubs/Scouts/Explorers/Network">
-                                <label for="DOB">DOB</label>
-                                <input type="text" id="DOB" name="DOB" placeholder="11 May 1970">
-                                <label for="Pname"><i class="fa fa-user"></i> Young Leader under 18 or Leader over
-                                    18</label>
-                                <input type="text" id="group" name="firstname" placeholder="Young Leader/Leader">
-
-
-                                <div class="row">
-                                    <div class="col-12">
-                                        <label for="Location">Location of Scout Group</label>
-                                        <input type="text" id="Location" name="Location of Scout Group"
-                                            placeholder="1st Washington">
-
-
-                                    </div>
-                                    <div class="col-12">
-                                        <label for="cvv">Any Disabilities</label>
-                                        <input type="text" id="cvv" name="cvv"
-                                            placeholder="No     /     Yes (Please List)">
-                                    </div>
-                                    <p>
-                                            <input id="checkbox" type="checkbox" checked="checked" name="sameadr"> I
-                                            confirm sharing my Data with a 3rd Party
-                                            Admin Service
-                                    </p>
+                                <div class="col-12">
+                                    <label for="postcode">Postcode</label>
+                                    <input type="text" id="Postcode" name="Postcode" placeholder="SR1 1RG">
                                 </div>
                             </div>
                         </div>
-                    </div>
-                  
-                        </form> <!--Form-->
-                        <p>
-                        <button id="submit-button" class="submit-button" type="button">Click to
-                                Submit
-                                Application Form </button>
+
+                        <div class="col-12">
+
+                            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                            <input type="text" id="email" name="email" placeholder="john@example.com">
+
+                            <label for="ccnum">Please Type in the Scout Section you want to
+                                Volunteer/Leader</label>
+                            <input type="text" id="ccnum" name="What Section"
+                                placeholder="Beavers/Cubs/Scouts/Explorers">
+                            <label for="DOB">DOB</label>
+                            <input type="text" id="DOB" name="DOB" placeholder="11 May 1970">
+                            <label for="Pname"><i class="fa fa-user"></i> Young Leader under 18 or Leader over
+                                18</label>
+                            <input type="text" id="group" name="firstname" placeholder="Young Leader/Leader">
+                     
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="Location">Location of Scout Group</label>
+                                    <input type="text" id="Location" name="Location of Scout Group"
+                                        placeholder="1st Washington">
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="cvv">Any Disabilities</label>
+                                    <input type="text" id="cvv" name="cvv" placeholder="No     /     Yes (Please List)">
+                                </div>
+
+                                <p>
+                                    <input id="checkbox" type="checkbox" checked="checked" name="sameadr"> I
+                                    confirm sharing my Data with a 3rd Party
+                                    Admin Service.
+                                    <link rel="stylesheet"
+                    class="fa fa-refresh fa-spin"><i>Loading</i>
                                 </p>
+                       
+                    </div> <!--row div end-->
+                </div> <!--Container div end-->
+            </form>
+            <!--Form end-->
+            <p>
+                
+                <button id="submit-button" class="submit-button" type="button">Click to
+                    Submit
+                    Application Form </button>
+            </p>
 
-                </div> <!--row-->
-
-                <p>Make sure you have submitted an application for a person 14+ who would like to volunteer and 18+ for
-                    an adult leader. If younger than 25 and doesnt what to volunteer vist the <a
-                        href="sign-up.html">Sign Up</a> page.</p>
-                <p>An application that involves a person under the age of 18 can't register for an adult leader and must
-                    voluteer as a young leader until the age of 18.</p>
-
-               
-            </div> <!-- adult leader container block -->
         </div>
+        <!--row div-->
 
+        <p>Make sure you have submitted an application for a person 14+ who would like to volunteer and 18+ for
+            an adult leader. If younger than 25 and doesnt what to volunteer vist the <a href="sign-up.html">Sign Up</a>
+            page.</p>
+        <p>An application that involves a person under the age of 18 can't register for an adult leader and must
+            voluteer as a young leader until the age of 18.</p>
+
+
+    </div> <!-- adult leader container block -->
+
+
+
+  
    
-
-    </div>
     <img src="images/footer.png" style="width:100%">
 
     <script src="adult-leader.js"></script>
+
+
+  
+    </script>
 </body>
 
 
