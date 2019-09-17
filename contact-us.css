@@ -3,8 +3,8 @@
 }
 
 .submit-contact{
-font-size: 150%
-
+font-size: 150%;
+border:black;
 }
 
 body {
@@ -200,10 +200,6 @@ body {
     color:black;
     opacity:0.75;
   }
-  
-  /* .content {
-    padding: 40px; */
-  /* } */
 
   .intro {
     padding-top: 0px;
@@ -342,7 +338,8 @@ form {
     width: 100%;
     color:red;
     text-align: center;
-}
+    border:black;
+  }
 
 
 
