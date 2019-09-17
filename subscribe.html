@@ -2,104 +2,80 @@
 <html>
 
 <head>
-    <title>Subscribe</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="subscribe.css" type="text/css" rel="stylesheet">
-    <link href="mobile.css" type="text/css" rel="stylesheet">
-    <link href="tablet.css" type="text/css" rel="stylesheet">
+  <title>Subscribe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="subscribe.css" type="text/css" rel="stylesheet">
+  <link href="mobile.css" type="text/css" rel="stylesheet">
+  <link href="tablet.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
-    <a href="index.html">
-        <img alt="Home Page" src="images/scouts-uk-logo.png" width="auto"
-            height="8%">
+  <a href="index.html">
+    <img alt="Home Page" src="images/scouts-uk-logo.png" width="auto" height="8%">
 
-    </a>
+  </a>
 
-       <!-- Simulate a smartphone / tablet -->
-<div class="mobile-container">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Simulate a smartphone / tablet -->
+  <div class="mobile-container">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <!-- Top Navigation Menu -->
-        <div class="topnav">
-                <a href="index.html"active>Scouts Home Page</a>
-                <div id="myLinks">
-                  <a href="about-us.html">About Us</a>
-                  <a href="sections.html">Sections</a>
-                  <a href="news.html">News/Camps</a>
-                  <a href="FAQ.html">FAQ</a>
-                  <a href="subscribe.html">Subscribe</a>
-                  <a href="sign-up.html">Sign Up</a>
-                  <a href="adult-leader.html">Adult Leader Section</a>
-                  <a href="testimonials.html">Testimonials</a>
-                  <a href="contact-us.html">Contact Us</a>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="index.html" active>Scouts Home Page</a>
+      <div id="myLinks">
+        <a href="about-us.html">About Us</a>
+        <a href="sections.html">Sections</a>
+        <a href="news.html">News/Camps</a>
+        <a href="FAQ.html">FAQ</a>
+        <a href="subscribe.html">Subscribe</a>
+        <a href="sign-up.html">Sign Up</a>
+        <a href="adult-leader.html">Adult Leader Section</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact-us.html">Contact Us</a>
 
-          </div>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
-        
-        <div style="padding-left:16px">
+      </div>
+      <!--Javascript function which allows the drop down burger bar button to work-->
 
-        </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
 
-  <!-- End smartphone / tablet look -->
-</div>
-        
-<script>
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
+    <div style="padding-left:16px">
 
-            <form action="action_page.php">
-                <div class="container">
-                    <h2>Subscribe to our Newsletter</h2>
-                </div>
+    </div>
 
-                <div class="container" style="background-color:white">
-                    <input type="text" placeholder="Name" name="name" required>
-                    <input type="text" placeholder="Email address" name="mail" required>
-                    <input id="checkbox" type="checkbox" checked="checked" name="sameadr"> Agree to sharing your email with a 3rd party admin site.
-                    <link rel="stylesheet"
-                            <i class="fa fa-refresh fa-spin"></i>Loading
-                    <button id="submit-button" class="submit-button" type="button">Click to Subscribe</button>
-                </div>
-                
+    <!--Allows all the webpages inside mylinks hidden section on the nav bar to work-->
+  </div>
 
-            </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
 
+  <form action="action_page.php">
+    <div class="container">
+      <h2>Subscribe to our Newsletter</h2>
+    </div>
 
-           
+    <div class="container" style="background-color:white">
+      <input type="text" placeholder="Name" name="name" required>
+      <input type="text" placeholder="Email address" name="mail" required>
+      <input id="checkbox" type="checkbox" checked="checked" name="sameadr"> Agree to sharing your email with a 3rd
+      party admin site.
+      <link rel="stylesheet" class="fa fa-refresh fa-spin"></i>Loading
+      <button id="submit-button" class="submit-button" type="button">Click to Subscribe</button>
+    </div>
+  </form>
+  <img src="images/footer.png" style="width:100%">
 
-               
-            </form>
-            <img src="images/footer.png" style="width:100%">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-
-            <script src="subscribe.js"></script>
+  <script src="subscribe.js"></script>
 </body>
 
 </html>
-
-
