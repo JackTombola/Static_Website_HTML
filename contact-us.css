@@ -32,7 +32,6 @@ body {
     text-align: center;
     text-decoration: underline;
     font:bold;
-
   }
   
   h2 {
@@ -269,8 +268,6 @@ body {
     display: table;
     clear: both;
   }
-  
-  
 
   /* Style the form element with a border around it */
 form {
@@ -341,10 +338,6 @@ form {
     border:black;
   }
 
-
-
-
-
   /* Style the navigation menu */
   .topnav {
     overflow: hidden;
@@ -389,5 +382,3 @@ form {
     background-color: #7413dc;
     color: white;
   }
-
-

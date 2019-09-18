@@ -1,7 +1,5 @@
 function clickHandler() {
 
-   
-
     var text;
     var fav = confirm("Are you sure you want to contact us?");
     if (fav) {
