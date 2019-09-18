@@ -1,6 +1,7 @@
 .content {
     color: darkblue;
 }
+
 body {
     /* Old browsers */
     background: white;
@@ -22,7 +23,6 @@ body {
     text-align: center;
     text-decoration: underline;
     font:bold;
-
   }
   
   h2 {
@@ -35,6 +35,7 @@ body {
     width: 70%;
     font-family:Georgia
   }
+
   h3 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     color: black;
@@ -46,6 +47,7 @@ body {
     font-family:Georgia;
     text-decoration: underline;
   }
+
   /* navigation menu */
   .nav { 
     background:#7413dc;
@@ -174,7 +176,6 @@ body {
       to {opacity: 1}
     }
 
-
   p {
     color: black;
     line-height: 1.3em;
@@ -184,7 +185,6 @@ body {
     font-size: 18px;
     font-weight:normal;
   }
-  
   
   .caption {
     display: block;
@@ -223,7 +223,6 @@ body {
     width: 50px;
   }
   
-
 .navbar-item{
 text-decoration: none;
 
@@ -294,7 +293,4 @@ div {
   .active {
     background-color: #7413dc;
     color: white;
-  }
-
-
-  
+  } 

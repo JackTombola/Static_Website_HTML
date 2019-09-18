@@ -1,6 +1,7 @@
 .content {
     color: darkblue;
 }
+
 body {
     /* Old browsers */
     background: white;
@@ -23,7 +24,6 @@ body {
     text-align: center;
     text-decoration: underline;
     font:bold;
-
   }
   
   h2 {
@@ -75,7 +75,6 @@ body {
       max-height: 5%;
       position: relative;
       margin: auto;
-    
     }
     
     /* Hide the images by default */
@@ -107,9 +106,8 @@ body {
     font-family:Helvetica;
     font-size: 18px;
     font-weight:normal;
-    
-    
   }
+
   ul{text-align: left;
     color:black; 
     font-size: 18px;
@@ -130,10 +128,6 @@ body {
     color:black;
     opacity:0.75;
   }
-  
-  /* .content {
-    padding: 40px; */
-  /* } */
 
   .intro {
     padding-top: 0px;
@@ -154,32 +148,34 @@ body {
     text-decoration: none;
   }    
 
-
   @keyframes bounceIn {
+
     0% {
       transform: scale(0.1);
       opacity: 0;
     }
+
     100% {
       transform: scale(1.2);
       opacity: 1;
     }
+
     100% {
       transform: scale(1);
     }
   }
+
   div {
     animation-duration: 2s;
     animation-name: bounceIn;
   }
+
   div {
     animation: bounceIn 2s;
   }
 
-
-
    /* Style the container with a rounded border, grey background and some padding and margin */
-.container {
+  .container {
     border: 2px solid #ccc;
     background-color: #eee;
     border-radius: 5px;
@@ -218,6 +214,7 @@ body {
       float: none;
       display: block;
     }
+
   }
   
   .intro{padding: 0%}
@@ -225,7 +222,7 @@ body {
   div.container{padding:30px}
 
     /* Style the navigation menu */
-.topnav {
+  .topnav {
     overflow: hidden;
     background-color: #333;
     position: relative;
@@ -268,5 +265,3 @@ body {
     background-color: #7413dc;
     color: white;
   }
-
-

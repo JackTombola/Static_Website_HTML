@@ -6,7 +6,7 @@ showSlides();
 //   showSlides(slideIndex += n);
 // }
 
-// // Thumbnail image controls
+// //image controls
 // function currentSlide(n) {
 //   showSlides(slideIndex = n);
 // }
